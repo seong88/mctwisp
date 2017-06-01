@@ -1,9 +1,9 @@
 {
-  "name": "ReST-API",
+  "name": "mcTwisp",
   "version": "1.0.0",
-  "description": "A simple RESTFul API created using nodejs that talks to Mongodb database",
+  "description": "RESTful API for timetracking using MEAN stack",
   "main": "server.js",
-  "author": "codenx",
+  "author": "Seong",
   "license": "ISC",
   "dependencies": {
     "angular-drag-and-drop-lists": "^2.1.0",
