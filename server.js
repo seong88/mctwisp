@@ -22,8 +22,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/api', require('./routes/api'));
 
 // Start server
-var port = process.env.port || 8080
+/*version 1 debug
+var port = process.env.port || 5000
 , ip = process.env.ip || "0.0.0.0";
 app.listen(port, ip, function() {
   console.log('Express server listening on %d', port);
+});
+*/
+
+app.listen(process.env.PORT || 5000, function () {
+  console.log('Express server listening on %d', process.env.PORT);
 });
