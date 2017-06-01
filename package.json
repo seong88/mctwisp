@@ -1,11 +1,11 @@
 {
-  "name": "mcTwisp",
+  "name": "mctwisp",
   "version": "1.0.0",
   "description": "RESTful API for timetracking using MEAN stack",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-    },
+  },
   "author": "Seong",
   "license": "ISC",
   "dependencies": {
@@ -16,5 +16,21 @@
     "mongoose": "^4.1.3",
     "node-restful": "^0.2.2",
     "nodemon": "^1.11.0"
-  }
+  },
+    "engines": {
+    "node": "6.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seong88/mctwisp.git"
+  },
+  "keywords": [
+    "mean",
+    "restful",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/seong88/mctwisp/issues"
+  },
+  "homepage": "https://github.com/seong88/mctwisp#readme"
 }
